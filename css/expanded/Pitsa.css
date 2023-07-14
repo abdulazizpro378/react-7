@@ -1,0 +1,85 @@
+#Pitsa {
+  padding: 20px 0;
+}
+
+.pitsa-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pitsa-top h2 {
+  color: var(--black, #191919);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}
+.pitsa-top .select {
+  width: 100px;
+}
+
+.pittsa-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.btn-price {
+  padding: 13px 32px;
+  border-radius: 6px;
+  background: var(--primary, #ff7010);
+  color: var(--white, #fff);
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+
+.buttten_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttten_price p {
+  color: var(--primary, #ff7010);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.card-footer h4 {
+  color: var(--black, #191919);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+}
+.card-footer h4 p {
+  color: var(--black, #191919);
+  font-size: 16px;
+  max-width: 260px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+
+@media (max-width: 1250px) {
+  .pittsa-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  .pittsa-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 790px) {
+  .pittsa-row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

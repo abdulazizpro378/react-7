@@ -1,0 +1,32 @@
+#text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#text h2 {
+  color: var(--black, #191919);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+  padding: 60px 0 16px;
+}
+#text p {
+  color: #191919;
+  font-size: 16px;
+  font-style: normal;
+  max-width: 850px;
+  font-weight: 700;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+}
+#text span {
+  color: var(--primary, #ff7010);
+  padding: 20px 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
